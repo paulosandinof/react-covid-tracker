@@ -1,6 +1,6 @@
 # React COVID-19 Tracker
 
-An application for tracking COVID-19, using React with Typescritp and Chart.js.
+An application for tracking COVID-19, using React with Typescript and Chart.js.
 
 
 ## Running the application

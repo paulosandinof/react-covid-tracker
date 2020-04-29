@@ -108,7 +108,7 @@ const Cards: React.FC<CardsProps> = ({ data }) => {
               {new Date(data.lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
-              Number of active cases of COVID-19
+              Number of deaths of COVID-19
             </Typography>
           </CardContent>
         </Grid>

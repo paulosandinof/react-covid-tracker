@@ -4,7 +4,7 @@ import Cards from './components/Cards';
 import Chart from './components/Chart';
 import CountryPicker from './components/CountryPicker';
 
-import styles from './styles.module.css';
+import styles from './styles/styles.module.css';
 
 import image from './assets/image.png';
 

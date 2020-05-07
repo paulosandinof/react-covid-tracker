@@ -34,7 +34,7 @@ interface ChartProps {
 
 const Chart: React.FC<ChartProps> = ({ data, country }) => {
   const [dailyData, setDailyData] = useState<DailyDataState[]>([]);
-
+  console.log('a');
   useEffect(() => {
     async function fetchData(): Promise<void> {
       const response = await api.get('daily');

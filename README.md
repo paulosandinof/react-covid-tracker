@@ -2,7 +2,6 @@
 
 An application for tracking COVID-19, using React with Typescript and Chart.js.
 
-
 ## Running the application
 
 This project was built using **NodeJs 12.16.3**

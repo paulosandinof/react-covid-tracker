@@ -7,7 +7,6 @@
     "plugin:react/recommended",
     "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript",
     "prettier",
     "prettier/@typescript-eslint"
   ],
@@ -35,11 +34,34 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"]}],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ],
     "import/prefer-default-export": "off",
-    "import/extensions": ["error", "ignorePackages", {"js": "never", "jsx": "never", "ts": "never", "tsx": "never"}],
-    "import/no-cycle": "off",
-    "@typescript-eslint/explicit-function-return-type": ["error",{"allowExpressions": true}],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
     "no-unused-expressions": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
   }
 }
